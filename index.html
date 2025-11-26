@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APK ZONE</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css"> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <script type='text/javascript' src='//pl28017969.effectivegatecpm.com/a6/9c/c2/a69cc2fec690acbadeb371d07e328eef.js'></script>
+    </head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <div class="logo">
+                    <span class="logo-text">A</span>
+                    <span class="logo-text zone-char">P</span>
+                    <span class="logo-text zone-char">K</span>
+                    <span class="logo-text">Z</span>
+                    <span class="logo-text">O</span>
+                    <span class="logo-text">N</span>
+                    <span class="logo-text">E</span>
+                </div>
+                <i class="fas fa-gamepad controller-icon"></i> 
+            </div>
+
+            <div class="search-and-controls">
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Search 16,000+ Mods & APKs">
+                    <i class="fas fa-search"></i>
+                </div>
+
+                <label class="switch">
+                    <input type="checkbox" id="mode-toggle">
+                    <span class="slider">
+                        <i class="fas fa-sun light-icon"></i>
+                        <i class="fas fa-moon dark-icon"></i>
+                    </span>
+                </label>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <h2 class="section-title"><i class="fas fa-fire"></i> Popular Today</h2>
+        <div class="carousel" id="popular-carousel">
+            </div>
+        
+        <h2 class="section-title"><i class="fas fa-star"></i> Recommended for You</h2>
+        <div class="recommended-banner" id="recommended-banner">
+            </div>
+
+        <div class="tabs-container">
+            <div class="tabs">
+                <button class="tab-btn active" onclick="filterCategory('game')">Games</button>
+                <button class="tab-btn category-btn" data-category="Programs" onclick="filterCategory('program')">Programs</button>
+            </div>
+        </div>
+
+        <div id="recommended-list"> 
+            <div class="grid-container" id="content-grid">
+                </div>
+        </div>
+    </div>
+
+
+    <div id="detail-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+
+            <div class="modal-header">
+                <img id="modal-icon" src="" alt="Icon">
+                <div class="modal-title-info">
+                    <h1 id="modal-title">Game Title</h1>
+                    <div class="modal-meta-bar">
+                        <div class="rating-bar">
+                            <span id="modal-rating-stars"></span>
+                            <span id="modal-rating-value">(0.0)</span>
+                            <span id="modal-installs-count">| 0M Downloads</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="metadata-grid">
+                <div class="meta-item">
+                    <span>Updated</span>
+                    <strong id="modal-updated">--</strong>
+                </div>
+                <div class="meta-item">
+                    <span>Version</span>
+                    <strong id="modal-version">--</strong>
+                </div>
+                <div class="meta-item">
+                    <span>Requirements</span>
+                    <strong id="modal-requirements">--</strong>
+                </div>
+                <div class="meta-item">
+                    <span>Genre</span>
+                    <strong id="modal-genre">--</strong>
+                </div>
+                <div class="meta-item">
+                    <span>Price</span>
+                    <strong id="modal-price" class="free">FREE</strong>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <h3>Attention Description</h3>
+                <p id="modal-desc">Game description goes here...</p>
+
+                <h3>Screenshots</h3>
+                <div class="screenshot-scroller" id="modal-screenshots">
+                    </div>
+
+                <div class="download-section">
+                    <a href="#" id="btn-android" class="dl-btn android">
+                        <i class="fab fa-android"></i> Download APK
+                    </a>
+                    <a href="#" id="btn-ios" class="dl-btn ios">
+                        <i class="fab fa-apple"></i> Download IPA
+                    </a>
+                </div>
+
+                <h3 id="comments-title">User Reviews</h3>
+                <div class="comments-section" id="modal-comments">
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <script type='text/javascript' src='//pl28135715.effectivegatecpm.com/dc/26/7d/dc267daa7e507bb94fc5f82d1437f6a2.js'></script>
+    </body>
+</html>
